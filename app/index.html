@@ -112,6 +112,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <iron-icon icon="social:person"></iron-icon>
                 <span>Login</span>
             </a>
+            <a data-route="not-found" href="{{baseUrl}}not-found">
+                <iron-icon icon="social:mood-bad"></iron-icon>
+                <span>404 Page</span>
+            </a>
 
         </paper-menu>
 
@@ -130,12 +134,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <!-- Toolbar icons -->
           <paper-icon-button icon="refresh"></paper-icon-button>
           <paper-icon-button icon="social:notifications"></paper-icon-button>
+
             <paper-menu-button class="profile">
                 <paper-icon-button icon="icons:account-circle" class="dropdown-trigger"></paper-icon-button>
                 <paper-menu class="dropdown-content">
 
                         <a data-route="profile" href="{{baseUrl}}profile">Profile</a>
-                    
+
                     <paper-item>Settings</paper-item>
                     <paper-item>Help</paper-item>
                 </paper-menu>
@@ -250,6 +255,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                               <paper-button on-click="{{Submit}}" raised>Submit</paper-button>
                           </div>
                       </div>
+                  </paper-material>
+              </section>
+
+              <section data-route="not-found">
+                  <paper-material elevation="1">
+                      <h2 class="page-title">404 - I was hungry and ate that page</h2>
                   </paper-material>
               </section>
 

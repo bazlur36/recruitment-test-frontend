@@ -4,11 +4,6 @@
     <list default="true" id="bd659ec7-ab1c-441d-9acf-7325a3879e7e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/routing.html" afterPath="$PROJECT_DIR$/app/elements/routing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/rt.css" afterPath="$PROJECT_DIR$/.tmp/styles/rt.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/rt.css" afterPath="$PROJECT_DIR$/app/styles/rt.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/rt.css" afterPath="$PROJECT_DIR$/dist/styles/rt.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/rt.styl" afterPath="$PROJECT_DIR$/app/styles/rt.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="recruitment-test-frontend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="20" selection-start="5574" selection-end="5574" vertical-scroll-proportion="0.83444816" vertical-offset="1556" max-vertical-offset="4440">
+            <state line="267" column="14" selection-start="12272" selection-end="12272" vertical-scroll-proportion="0.7090301" vertical-offset="3581" max-vertical-offset="4605">
               <folding />
             </state>
           </provider>
@@ -60,7 +55,7 @@
       <file leaf-file-name="routing.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/elements/routing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="26" selection-start="1806" selection-end="1806" vertical-scroll-proportion="-17.5" vertical-offset="555" max-vertical-offset="1320">
+            <state line="69" column="28" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-20.0" vertical-offset="555" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -379,14 +374,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/elements/routing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="26" selection-start="1806" selection-end="1806" vertical-scroll-proportion="-17.5" vertical-offset="555" max-vertical-offset="1320">
+        <state line="69" column="28" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-20.0" vertical-offset="555" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="20" selection-start="5574" selection-end="5574" vertical-scroll-proportion="0.83444816" vertical-offset="1556" max-vertical-offset="4440">
+        <state line="267" column="14" selection-start="12272" selection-end="12272" vertical-scroll-proportion="0.7090301" vertical-offset="3581" max-vertical-offset="4605">
           <folding />
         </state>
       </provider>
