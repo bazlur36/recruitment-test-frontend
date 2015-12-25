@@ -2,142 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd659ec7-ab1c-441d-9acf-7325a3879e7e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/explainer/data-bind.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/explainer/data-bind.vsdx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/explainer/samples.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/polymer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/polymer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/annotations/annotations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/annotations/demo/app-chrome.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/array-observe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/array-splice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/async.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/bind/accessors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/bind/demo/app-chrome.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/bind/demo/app.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/bind/demo/src/annotations-bind-demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/bind/demo/src/bind-demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/bind/effects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/case-map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/collection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/css-parse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/debounce.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/dom-api.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/dom-module.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/event-api.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/expr/focus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/expr/gestures.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/expr/log.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/expr/sinspect.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/expr/style-auditor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/expr/style-protector.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/gestures.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/lang.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/module.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/polymer-bootstrap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/resolve-url.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/settings.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/style-defaults.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/style-transformer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/style-util.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/template/templatizer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/template/x-array-selector.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/template/x-autobind.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/template/x-if.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/template/x-repeat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/template/x-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/lib/x-style.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/micro/attributes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/micro/behaviors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/micro/constructor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/micro/debouncer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/micro/extends.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/micro/mixins.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/micro/properties.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/micro/tag.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/mini/ready.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/mini/shadow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/mini/shady.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/mini/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/polymer-lib.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/standard/annotations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/standard/configure.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/standard/effects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/standard/events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/standard/notify-path.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/standard/resolveUrl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/standard/styling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/standard/utils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/src/standard/x-styling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/assets/Beaker2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/assets/test-style-path.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/compat/polymer-smoke-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/compat/polymer-smoke-polyfill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/runner.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/smoke/bind-smoke.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/smoke/custom-notify-smoke.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/smoke/elements-smoke.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/smoke/polymer-micro-smoke.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/smoke/polymer-mini-smoke.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/smoke/polymer-smoke.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/smoke/style-path-smoke.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/smoke/x-if.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/smoke/x-repeat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/async.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/attributes-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/attributes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/behaviors-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/behaviors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/bind-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/bind.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/configure-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/configure.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/css-parse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/dynamic-import.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/dynamic-imports/dynamic-element.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/dynamic-imports/inner-element.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/dynamic-imports/outer-element.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/gestures-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/gestures.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/micro-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/micro.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/notify-path-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/notify-path.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/polymer-dom-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/polymer-dom-shadow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/polymer-dom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/polymer-dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/ready-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/ready-shadow.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/ready.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/ready.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/resolveurl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/shady.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/styling-remote-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/styling-remote-module-sheet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/styling-remote-sheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/styling-remote.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/styling-scoped-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/styling-scoped.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/sub/resolveurl-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/template-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/template/x-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/utils-content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/utils-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/utils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/x-repeat-elements.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/x-repeat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/bower_components/polymer/test/unit/x-style.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/polymer/.bower.json" afterPath="$PROJECT_DIR$/app/bower_components/polymer/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/webcomponentsjs/.bower.json" afterPath="$PROJECT_DIR$/app/bower_components/webcomponentsjs/.bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/elements/routing.html" afterPath="$PROJECT_DIR$/app/elements/routing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/rt.css" afterPath="$PROJECT_DIR$/.tmp/styles/rt.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/rt.css" afterPath="$PROJECT_DIR$/app/styles/rt.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/rt.css" afterPath="$PROJECT_DIR$/dist/styles/rt.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/rt.styl" afterPath="$PROJECT_DIR$/app/styles/rt.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="recruitment-test-frontend.iws" />
@@ -163,7 +34,16 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="215" column="67" selection-start="10121" selection-end="10121" vertical-scroll-proportion="0.5083612" vertical-offset="2921" max-vertical-offset="4095">
+            <state line="230" column="63" selection-start="10894" selection-end="10894" vertical-scroll-proportion="0.6588629" vertical-offset="3056" max-vertical-offset="4185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rt.styl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/rt.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -172,7 +52,7 @@
       <file leaf-file-name="routing.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/elements/routing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="17" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="1200">
+            <state line="61" column="26" selection-start="1736" selection-end="1736" vertical-scroll-proportion="-15.0" vertical-offset="555" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
@@ -201,6 +81,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/styles/rt.styl" />
         <option value="$PROJECT_DIR$/app/elements/routing.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
       </list>
@@ -253,6 +134,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="recruitment-test-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recruitment-test-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recruitment-test-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recruitment-test-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recruitment-test-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -441,16 +354,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/rt.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/elements/routing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="1200">
+        <state line="61" column="26" selection-start="1736" selection-end="1736" vertical-scroll-proportion="-15.0" vertical-offset="555" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="67" selection-start="10121" selection-end="10121" vertical-scroll-proportion="0.5083612" vertical-offset="2921" max-vertical-offset="4095">
+        <state line="230" column="63" selection-start="10894" selection-end="10894" vertical-scroll-proportion="0.6588629" vertical-offset="3056" max-vertical-offset="4185">
           <folding />
         </state>
       </provider>

@@ -53,6 +53,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <link href="bower_components/paper-menu/paper-submenu.html" rel="import">
     <link href="bower_components/paper-menu/paper-menu.html" rel="import">
     <link rel="import" href="bower_components/iron-icons/social-icons.html">
+    <link rel="import" href="bower_components/gold-email-input/gold-email-input.html">
 
   <!-- endbuild -->
 
@@ -212,20 +213,25 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                       <div id="loginbox" vertical layout>
                           <div><paper-input id="txtUsername" label="Username" value="{{username}}" floatinglabel></paper-input></div>
                           <div><paper-input id="txtPassword" label="Password" type="password" value="{{password}}" floatinglabel></paper-input></div>
-                          <div>
+                          <div class="submit-row">
                               <paper-checkbox checked> Remember Me </paper-checkbox><paper-button on-click="{{logIn}}" raised>Log in</paper-button>
-                              <template bind if="{{loginInProgress}}">
-                                  <div class="spinner">
-                                      <div class="rect1"></div>
-                                      <div class="rect2"></div>
-                                      <div class="rect3"></div>
-                                      <div class="rect4"></div>
-                                      <div class="rect5"></div>
-                                  </div>
-                              </template>
+                              <a data-route="recover" href="{{baseUrl}}recover">
+                                  <span>Forgot Password?</span>
+                              </a>
+
                           </div>
+                      </div>
+                  </paper-material>
+              </section>
 
-
+              <section data-route="recover">
+                  <paper-material elevation="1">
+                      <h2 class="page-title">Recover Password</h2>
+                      <div id="recover" vertical layout>
+                          <div><gold-email-input auto-validate label="Email Address" floatinglabel></gold-email-input></div>
+                          <div class="submit-row">
+                              <paper-button on-click="{{Submit}}" raised>Submit</paper-button>
+                          </div>
                       </div>
                   </paper-material>
               </section>
