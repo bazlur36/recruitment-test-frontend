@@ -15,8 +15,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <meta charset="utf-8">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="generator" content="Polymer Starter Kit">
-  <title>Polymer Starter Kit</title>
+  <meta name="generator" content="Recruitment Test">
+  <title>Recruitment Test</title>
   <!-- Place favicon.ico in the `app/` directory -->
 
   <!-- Chrome for Android theme color -->
@@ -36,7 +36,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <!-- Add to homescreen for Safari on iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Polymer Starter Kit">
+  <meta name="apple-mobile-web-app-title" content="Recruitment Test">
   <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
 
   <!-- Tile icon for Win8 (144x144) -->
@@ -52,6 +52,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <link href="bower_components/paper-elements/paper-elements.html" rel="import">
     <link href="bower_components/paper-menu/paper-submenu.html" rel="import">
     <link href="bower_components/paper-menu/paper-menu.html" rel="import">
+    <link rel="import" href="bower_components/iron-icons/social-icons.html">
+
   <!-- endbuild -->
 
   <!-- Because this project uses vulcanize this should be your only html import
@@ -82,10 +84,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <iron-icon icon="home"></iron-icon>
             <span>Home</span>
           </a>
-
-
-
-            <paper-submenu>
+          <paper-submenu class="users">
                 <paper-item class="menu-trigger"><iron-icon icon="info"></iron-icon>
                 <span>Users</span></paper-item>
                 <paper-menu multi class="menu-content">
@@ -96,7 +95,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                     <paper-item>Phillip Stokes</paper-item>
                     <paper-item>Rhea Oneill</paper-item>
                 </paper-menu>
-            </paper-submenu>
+          </paper-submenu>
 
 
 
@@ -111,6 +110,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <a href="#">
                 <iron-icon icon="settings-power"></iron-icon>
                 <span>Logout</span>
+            </a>
+
+            <a data-route="login" href="{{baseUrl}}login">
+                <iron-icon icon="social:person"></iron-icon>
+                <span>Login</span>
             </a>
 
         </paper-menu>
@@ -130,10 +134,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <!-- Toolbar icons -->
           <paper-icon-button icon="refresh"></paper-icon-button>
           <paper-icon-button icon="search"></paper-icon-button>
+          <paper-icon-button icon="social:notifications"></paper-icon-button>
 
           <!-- Application name -->
           <div class="middle middle-container center horizontal layout">
-            <div class="app-name">Polymer Starter Kit</div>
+            <div class="app-name">Recruitment Test</div>
           </div>
 
           <!-- Application sub title -->
@@ -205,6 +210,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <p>This is the contact section</p>
               </paper-material>
             </section>
+
+              <section data-route="login">
+                  <paper-material elevation="1">
+                      <h2 class="page-title">Login</h2>
+                      <p>This is the contact section</p>
+                  </paper-material>
+              </section>
 
           </iron-pages>
         </div>
