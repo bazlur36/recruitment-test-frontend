@@ -12,5 +12,9 @@
   "devDependencies": {
     "web-component-tester": "*"
   },
-  "ignore": []
+  "ignore": [],
+  "resolutions": {
+    "webcomponentsjs": "0.7.20",
+    "polymer": "^1.1.0"
+  }
 }
