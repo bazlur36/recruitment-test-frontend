@@ -54,6 +54,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <link href="bower_components/paper-menu/paper-menu.html" rel="import">
     <link rel="import" href="bower_components/iron-icons/social-icons.html">
     <link rel="import" href="bower_components/gold-email-input/gold-email-input.html">
+    <link rel="import" href="bower_components/core-item/core-item.html">
+    <link rel="import" href="bower_components/paper-fab/paper-fab.html">
 
   <!-- endbuild -->
 
@@ -88,16 +90,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <paper-submenu class="users">
                 <paper-item class="menu-trigger"><iron-icon icon="social:people"></iron-icon>
                 <span>Users</span></paper-item>
-                <paper-menu multi class="menu-content">
-                    <paper-item>Zorita Beach</paper-item>
-                    <paper-item>Austin Peterson</paper-item>
-                    <paper-item>Jermaine Cobb</paper-item>
-                    <paper-item>Emerald Mendez</paper-item>
-                    <paper-item>Phillip Stokes</paper-item>
-                    <paper-item>Rhea Oneill</paper-item>
+                <paper-menu class="menu-content">
+                    <a href$="{{baseUrl}}users/Zorita Beach">Zorita Beach</a>
+                    <a href$="{{baseUrl}}users/Austin Peterson">Austin Peterson</a>
+                    <a href$="{{baseUrl}}users/Jermaine Cobb">Jermaine Cobb</a>
+                    <a href$="{{baseUrl}}users/Emerald Mendez">Emerald Mendez</a>
+                    <a href$="{{baseUrl}}users/Phillip Stokes">Phillip Stokes</a>
+                    <a href$="{{baseUrl}}users/Rhea Oneill">Rhea Oneill</a>
                 </paper-menu>
           </paper-submenu>
-
           <a data-route="contact" href="{{baseUrl}}contact">
             <iron-icon icon="mail"></iron-icon>
             <span>Contact</span>
@@ -213,6 +214,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <paper-material elevation="1">
                 <h2 class="page-title">User: {{params.name}}</h2>
                 <div>This is {{params.name}}'s section</div>
+                  <div class="send-message" layout horizontal>
+                      <paper-input flex label="Type message..." id="input" value="{{input}}"></paper-input>
+                      <paper-fab icon="send" id="sendButton" on-tap="{{sendMyMessage}}"></paper-fab>
+                  </div>
               </paper-material>
             </section>
 
