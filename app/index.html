@@ -53,8 +53,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <link href="bower_components/paper-menu/paper-submenu.html" rel="import">
     <link href="bower_components/paper-menu/paper-menu.html" rel="import">
     <link rel="import" href="bower_components/iron-icons/social-icons.html">
+    <link rel="import" href="bower_components/polymer/polymer-mini.html">
+    <link rel="import" href="bower_components/polymer/polymer.html">
     <link rel="import" href="bower_components/gold-email-input/gold-email-input.html">
     <link rel="import" href="bower_components/core-item/core-item.html">
+    <link rel="import" href="bower_components/core-scaffold/core-scaffold.html">
     <link rel="import" href="bower_components/paper-fab/paper-fab.html">
 
   <!-- endbuild -->
@@ -66,9 +69,17 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <!-- For shared styles, shared-styles.html import in elements.html -->
   <style is="custom-style" include="shared-styles"></style>
 
+
+
+    <script>
+
+    </script>
+
 </head>
 
-<body unresolved class="fullbleed layout vertical">
+
+
+<body fullbleed unresolved class="fullbleed layout vertical">
   <span id="browser-sync-binding"></span>
   <template is="dom-bind" id="app">
 
@@ -199,21 +210,62 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             </section>
 
-            <section data-route="users">
-              <paper-material elevation="1">
-                <h2 class="page-title">Users</h2>
-                <p>This is the users section</p>
-                <a href$="{{baseUrl}}users/Addy">Addy</a><br>
-                <a href$="{{baseUrl}}users/Rob">Rob</a><br>
-                <a href$="{{baseUrl}}users/Chuck">Chuck</a><br>
-                <a href$="{{baseUrl}}users/Sam">Sam</a>
-              </paper-material>
-            </section>
-
             <section data-route="user-info">
-              <paper-material elevation="1">
+
+
+                <dom-module id="user-view">
+                    <template>
+                        First: <span>{{firstName}}</span><br>
+                        Last: <span>{{lastName}}</span>
+                    </template>
+                    <script>
+                        Polymer({
+                            is: 'user-view',
+                            properties: {
+                                firstName: 'Samuel',
+                                lastName: 'Adams'
+                            }
+                        });
+                    </script>
+                </dom-module>
+                <user-view first-name="Samuel" last-name="Adams"></user-view>
+
+
+                <dom-module id="custom-element" attributes="name">
+                    <ul>
+                    <template repeat="{{name in names }}">
+                        <li>Hello {{name}}</li>
+                    </template>
+                    </ul>
+                    <script>
+                        Polymer('custom-element',{
+                            ready: function() {
+                                this.names = [
+                                    {
+                                        name:'World'
+                                    },
+                                    {
+                                        name:'scott'
+                                    },
+                                    {
+                                        name:'World'
+                                    }
+                                ]
+                            }
+                        });
+                    </script>
+
+                </dom-module>
+
+                <custom-element></custom-element>
+
+
+
                 <h2 class="page-title">User: {{params.name}}</h2>
                 <div>This is {{params.name}}'s section</div>
+                  <template repeat="{{item in items}}">
+                      <core-item icon="{{item.icon}}" label="{{item.title}}"></core-item>
+                  </template>
                   <div class="send-message" layout horizontal>
                       <paper-input flex label="Type message..." id="input" value="{{input}}"></paper-input>
                       <paper-fab icon="send" id="sendButton" on-tap="{{sendMyMessage}}"></paper-fab>
@@ -300,6 +352,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
   <!-- build:js scripts/app.js -->
   <script src="scripts/app.js"></script>
+
+
+
   <!-- endbuild-->
 </body>
 
