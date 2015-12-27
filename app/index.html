@@ -59,6 +59,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <link rel="import" href="bower_components/core-item/core-item.html">
     <link rel="import" href="bower_components/core-scaffold/core-scaffold.html">
     <link rel="import" href="bower_components/paper-fab/paper-fab.html">
+    <link rel="import" href="custom_components/x-chat-list.html">
 
   <!-- endbuild -->
 
@@ -212,7 +213,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             <section data-route="user-info">
                 
-				<dom-module id="user-list">
+				<!--<dom-module id="user-list">
 				  <template>
 				    <div> User list: </div>
 				    <template is="dom-repeat" items="{{users}}">
@@ -236,18 +237,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 				</dom-module>
 
-				<user-list></user-list>
+				<user-list></user-list>-->
 
-                
+1111
+                <chat-box></chat-box>
+2222
 
 
 
                 <h2 class="page-title">User: {{params.name}}</h2>
                 
-                  <div class="send-message" layout horizontal>
-                      <paper-input flex label="Type message..." id="input" value="{{input}}"></paper-input>
-                      <paper-fab icon="send" id="sendButton" on-tap="{{sendMyMessage}}"></paper-fab>
-                  </div>
+
+                <div class="send-message" layout horizontal>
+                    <paper-input flex label="Type message..." id="input" value="{{input}}"></paper-input>
+                    <paper-fab icon="send" id="sendButton" on-tap="{{sendMyMessage}}"></paper-fab>
+                </div>
               </paper-material>
             </section>
 
