@@ -6,22 +6,16 @@
 </head>
 
 <dom-module id="chat-box">
-  <style>
-    /* CSS rules for your element */
-  </style>
-  <template>
-    <!-- local DOM for your element -->
-      hello dhaka
-  </template>
+    <template>
+        <div> Messages: </div>
+        <template is="dom-repeat" items="{{messages}}">
+            <div class$="{{classColor(item.sender_id)}}">
+                    <iron-icon icon="{{item.icon}}"></iron-icon>{{item.sender}}
+                    <span>{{item.message}}</span>
+                </div>
+        </template>
+
+    </template>
+    <script src="x-chat.js"></script>
+
 </dom-module>
-<script>
-  Polymer({
-    is: "chat-box",
-    properties: {
-        /*...*/
-        },
-    ready: function(e){
-        /*...*/
-    }
-  });
-</script>

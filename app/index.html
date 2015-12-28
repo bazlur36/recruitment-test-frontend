@@ -60,6 +60,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <link rel="import" href="bower_components/core-scaffold/core-scaffold.html">
     <link rel="import" href="bower_components/paper-fab/paper-fab.html">
     <link rel="import" href="custom_components/x-chat-list.html">
+    <link rel="import" href="custom_components/x-user-list.html">
 
   <!-- endbuild -->
 
@@ -212,42 +213,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             </section>
 
             <section data-route="user-info">
-                
-				<!--<dom-module id="user-list">
-				  <template>
-				    <div> User list: </div>
-				    <template is="dom-repeat" items="{{users}}">
-				        <div><iron-icon icon="{{item.icon}}"></iron-icon>{{item.title}}</div>
-     			    </template>
-
-				  </template>
-
-				  <script>
-				    Polymer({
-				      is: 'user-list',
-				      ready: function() {
-				        this.users = [
-				           {icon: 'cloud', title: 'PubNub'},
-						  {icon: 'polymer', title: 'Polymer'},
-						  {icon: 'favorite', title: 'Love'}
-				        ];
-				      }
-				    });
-				  </script>
-
-				</dom-module>
-
-				<user-list></user-list>-->
-
-1111
-                <chat-box></chat-box>
-2222
-
-
-
                 <h2 class="page-title">User: {{params.name}}</h2>
-                
-
+                <chat-box></chat-box>
                 <div class="send-message" layout horizontal>
                     <paper-input flex label="Type message..." id="input" value="{{input}}"></paper-input>
                     <paper-fab icon="send" id="sendButton" on-tap="{{sendMyMessage}}"></paper-fab>
