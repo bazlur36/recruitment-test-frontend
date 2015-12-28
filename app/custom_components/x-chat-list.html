@@ -6,12 +6,18 @@
 </head>
 
 <dom-module id="chat-box">
+
     <template>
+
         <div> Messages: </div>
         <template is="dom-repeat" items="{{messages}}">
-            <div class$="{{classColor(item.sender_id)}}">
-                    <iron-icon icon="{{item.icon}}"></iron-icon>{{item.sender}}
-                    <span>{{item.message}}</span>
+            <div class$="message {{classColor(item.sender_id)}}">
+                    <div class="avater"><iron-icon icon="{{item.icon}}"></iron-icon></div>
+                    <div class="content">
+                        <p>{{item.sender}}</p>
+                        <span>{{item.message}}</span>
+                        <label>{{item.time}}</label>
+                    </div>
                 </div>
         </template>
 

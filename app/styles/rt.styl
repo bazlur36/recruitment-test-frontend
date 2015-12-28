@@ -1,6 +1,11 @@
 right-spacer()
   margin-right: arguments
 
+border-radious()
+  -webkit-border-radius arguments
+  -moz-border-radius arguments
+  border-radius arguments
+
 body a
   font: 12px/1.4 "Lucida Grande", Arial, sans-serif
 
@@ -23,9 +28,60 @@ form input
 
 .send-message {
   position relative;
+  width 500px
   paper-fab {
     position absolute
-    top -20px
-    right 0
+    top: 21px;
+    right: -3px;
   }
 }
+.chat-box
+  padding 5px 0
+
+.message
+  width 500px
+  position relative
+  .avater
+    width 70px
+    height 55px
+    top 5px
+    border-radious(55px)
+    background #fff
+    position relative
+    display inline-block;
+    position absolute
+    iron-icon
+      width 40px
+      margin-left 50px
+      height 40px
+      margin-top: -3px
+      margin-left: 12px
+  .content
+    display inline-block;
+    padding-left 10px
+    margin-left 60px
+    background #fff;
+    width 425px;
+    border-radious(10px)
+
+.message.remote
+  .content
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-left-radius: 0;
+
+.message.host
+  .avater
+    right 0
+    iron-icon
+      width 40px
+      margin-left 50px
+      height 40px
+      margin-top: -3px
+      margin-left: 15px
+  .content
+    margin-right 60px
+    margin-left 0
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    border-top-right-radius: 0;

@@ -212,11 +212,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             </section>
 
-            <section data-route="user-info">
+            <section data-route="user-info" id="chat-box" style="position: fixed; bottom: 50px; overflow:">
                 <h2 class="page-title">User: {{params.name}}</h2>
+                <div id="previous"  style="height: 500px; overflow-y: scroll">
                 <chat-box></chat-box>
+                </div>
                 <div class="send-message" layout horizontal>
-                    <paper-input flex label="Type message..." id="input" value="{{input}}"></paper-input>
+                    <paper-input flex autofocus label="Type message..." id="input" value="{{input}}"></paper-input>
                     <paper-fab icon="send" id="sendButton" on-tap="{{sendMyMessage}}"></paper-fab>
                 </div>
               </paper-material>
