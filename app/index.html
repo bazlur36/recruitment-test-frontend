@@ -112,9 +112,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                     <a href$="{{baseUrl}}users/Rhea Oneill">Rhea Oneill</a>
                 </paper-menu>
           </paper-submenu>
-          <a data-route="contact" href="{{baseUrl}}contact">
-            <iron-icon icon="mail"></iron-icon>
-            <span>Contact</span>
+          <a data-route="profile" href="{{baseUrl}}profile">
+            <iron-icon icon="icons:account-circle"></iron-icon>
+            <span>Profile</span>
           </a>
 
             <a href="#">
@@ -212,12 +212,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             </section>
 
-            <section data-route="user-info" id="chat-box" style="position: fixed; bottom: 50px; overflow:">
+            <section data-route="user-info">
                 <h2 class="page-title">User: {{params.name}}</h2>
-                <div id="previous"  style="height: 500px; overflow-y: scroll">
+                <div id="previous">
                 <chat-box></chat-box>
                 </div>
-                <div class="send-message" layout horizontal>
+                <div id="chat-box" class="send-message" layout horizontal style="position: fixed; bottom: 0px">
                     <paper-input flex autofocus label="Type message..." id="input" value="{{input}}"></paper-input>
                     <paper-fab icon="send" id="sendButton" on-tap="{{sendMyMessage}}"></paper-fab>
                 </div>
@@ -225,15 +225,50 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             </section>
 
               <section data-route="profile">
+                  <dom-module is="tabs-with-content-example">
+
+                  <template>
+                  <paper-tabs selected="{{selected}}">
+                      <paper-tab>Basic Info</paper-tab>
+                      <paper-tab>User Settings</paper-tab>
+                  </paper-tabs>
+                  <iron-pages selected="{{selected}}">
+                      <div>
+                          <div><paper-input id="displayName" label="Display Name" value="{{displayName}}" floatinglabel></paper-input></div>
+                          <div><paper-textarea label="Address"></paper-textarea></div>
+                          <div><paper-input id="Phone" label="Phone" value="{{phone}}" floatinglabel></paper-input></div>
+                          <paper-button raised>Save</paper-button>
+                      </div>
+                      <div>
+                          <paper-input label="Old Password" type="password" floatinglabel></paper-input>
+                          <paper-input label="New Password" type="password" floatinglabel></paper-input>
+                          <paper-input label="Confirm New Password" type="password" floatinglabel></paper-input>
+                          <paper-button raised>Save</paper-button>
+                      </div>
+                  </iron-pages>
+                  </template>
+                  <script>
+                      Polymer({
+                          is: 'tabs-with-content-example',
+                          properties: {
+                              selected: {
+                                  type: Number,
+                                  value: 0
+                              }
+                          }
+                      });
+                  </script>
+              </dom-module>
               <paper-material elevation="1">
-                My Profile
+                  <tabs-with-content-example></tabs-with-content-example>
               </paper-material>
             </section>
 
-            <section data-route="contact">
+
+            <section data-route="profile">
               <paper-material elevation="1">
-                <h2 class="page-title">Contact</h2>
-                <p>This is the contact section</p>
+                <h2 class="page-title">User Profile</h2>
+                <p>This is the Profile section</p>
               </paper-material>
             </section>
 

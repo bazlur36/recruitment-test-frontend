@@ -19,4 +19,7 @@ Polymer({
     }
 });
 
-document.querySelector('#previous').scroller.scrollTop = 2000;
+
+
+
+
